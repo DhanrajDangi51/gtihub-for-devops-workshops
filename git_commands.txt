@@ -1,0 +1,10 @@
+git init
+git add filename
+git commit -m "(message)tracked the file" 
+rm filename
+git restore filename
+git status
+git remote -v
+git remote add origin https://github.com/DhanrajDangi1/gtihub-for-devops-workshops.git
+git remote set-url origin https://ghp_@github.com/DhanrajDangi51/gtihub-for-devops-workshops.git
+git push origin master
